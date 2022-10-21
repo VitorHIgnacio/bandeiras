@@ -1,0 +1,55 @@
+body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    height: 100px;
+    width: 100px;
+}
+
+#bandeira{
+    background-color:red ;
+    width: 498px;
+    height: 300px;
+    display: flex;
+    margin-top: 300px;
+    border: solid 2px black;
+    border-radius: 20px;
+    overflow: hidden;
+    z-index: 1;
+}
+
+#faixaUm{
+    background-color: blue;
+    height: 100%;
+    width: 168px;
+}
+
+#faixaDois{
+    background-color: yellow;
+    height: 100%;
+    width: 168px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+#faixaTres{
+    background-color: blue;
+    width: 168px;
+    height: 100%;
+}
+
+#cabo{
+    height: 300px;
+    width: 20px;
+    background-color: black;
+    margin-left: -500px;
+    margin-top: 500px;
+    
+}
